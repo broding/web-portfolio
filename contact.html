@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Joris van Laar</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="reel.html">Reel</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <header class="page-header">
+        <img src="img/name.png" id="logoname" alt="Name Logo">
+        <img src="img/logo.svg" id="logo" alt="Head Logo">
+    </header>
+
+    <main class="content">
+        <form name="contactForm" onsubmit="return validateForm()">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="john.doe@gmail.com">
+
+            <label for="birthday">Date of birth</label>
+            <input type="text" id="birthday" name="birthday" placeholder="dd-mm-yyyy">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="None" selected>[choose yours]</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+
+        <table>
+            <tr>
+                <td id="name-label"></td>
+                <td id="name-input"></td>
+            </tr>
+            <tr>
+                <td id="email-label"></td>
+                <td id="email-input"></td>
+            </tr>
+            <tr>
+                <td id="date-label"></td>
+                <td id="date-input"></td>
+            </tr>
+            <tr>
+                <td id="country-label"></td>
+                <td id="country-input"></td>
+            </tr>
+            <tr>
+                <td id="message-label"></td>
+                <td id="message-input"></td>
+            </tr>
+        </table>
+    </main>
+
+    <footer class="page-footer">
+        <img src="img/spacer.jpg" alt="spacer">
+        <p>&copy; Joris van Laar</p>
+    </footer>
+
+    <script src="scripts/form-submit.js"></script>
+
+</body>
+
+</html>

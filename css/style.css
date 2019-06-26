@@ -1,0 +1,121 @@
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Menubar */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    max-width: 960px;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ce2b46;
+    color: white;
+}
+
+
+/*Header*/
+.page-header {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+#logoname {
+    width: 546px;
+    height: 52px;
+    float: left;
+    padding: 10px;
+}
+
+#logo {
+    width: 150px;
+    height: 191px;
+    float: right;
+    padding: 10px;
+}
+
+
+/*Main*/
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+    clear: both;
+}
+
+.slide {
+    width: 960px;
+    height: 468px;
+}
+
+.project {
+    width: 960px;
+    height: 543px;
+}
+
+.reel {
+    width: 960px;
+    height: 540px;
+    border: none;
+}
+
+
+/*Footer*/
+.page-footer {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*Contact form*/
+input[type=text], input[type=email], input[type=date], select, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#message {
+    height: 200px;
+}
+
+input[type=submit] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ce2b46;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ad2237;
+}
